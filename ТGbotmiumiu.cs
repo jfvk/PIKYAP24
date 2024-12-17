@@ -10,7 +10,7 @@ namespace Meow
     {
         static void Main(string[] args)
         {
-            var client = new TelegramBotClient("7811576328:AAExXI-v7kot2w-fy5mPWXkhoB4Do_p_gM8");
+            var client = new TelegramBotClient("апишка");
             client.StartReceiving(Update, Мetod1);
             Console.ReadLine();
         }
